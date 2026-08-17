@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Dada Joseph Babatunde — Physics &amp; Electronics</title>
+  <meta name="description" content="Dr. Dada Joseph Babatunde — lecturer in physics at Elizade University and electronics maker. Research, teaching, and a portfolio of built devices." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dr. Dada Joseph Babatunde — Physics & Electronics" />
+  <meta property="og:description" content="Physicist by profession, electronics maker by passion. Wearables, environmental monitors, and instrumentation." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top"><span class="dot" aria-hidden="true"></span>DR. DADA J. B.</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
+      </button>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero wrap">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="hero-eyebrow" data-bind="role">Lecturer in Physics · Electronics Maker</p>
+          <h1>Dr. Dada <span class="accent">Joseph</span> Babatunde</h1>
+          <p class="hero-tag" data-bind="tagline">I teach the physics of how the world works, then build the electronics that put it to work.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#portfolio">View the build log</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+
+        <!-- Signature element: oscilloscope -->
+        <div class="scope" role="img" aria-label="Oscilloscope tracing a damped waveform">
+          <div class="scope-readout">CH1 · 2.00V<br/>SINE · 1kHz</div>
+          <svg viewBox="0 0 600 300" preserveAspectRatio="none">
+            <path class="wave-path" d="" />
+          </svg>
+          <div class="scope-label">DDA-LAB · TRACE 001</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <p class="ref reveal">Ref. 01 — About</p>
+        <div class="about-grid">
+          <div class="about-body reveal">
+            <h2 class="section-title">Physicist by profession,<br/>maker by passion.</h2>
+            <div data-bind="about" style="margin-top:1.5rem">
+              <!-- filled from profile.json -->
+            </div>
+          </div>
+          <aside class="spec-card reveal">
+            <h3>At a glance</h3>
+            <div data-bind="stats">
+              <!-- filled from profile.json -->
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH ============ -->
+    <section class="section" id="research">
+      <div class="wrap">
+        <p class="ref reveal">Ref. 02 — Research</p>
+        <h2 class="section-title reveal">Where physics meets hardware</h2>
+        <p class="section-intro reveal">My work sits at the intersection of physical principles and practical electronics, turning theory into instruments that measure, monitor, and teach.</p>
+
+        <div class="interest-grid reveal" data-bind="interests">
+          <!-- filled from research.json -->
+        </div>
+
+        <div class="pub-list reveal">
+          <h3>Selected Publications</h3>
+          <div data-bind="publications">
+            <!-- filled from research.json -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="section" id="portfolio">
+      <div class="wrap">
+        <p class="ref reveal">Ref. 03 — Portfolio</p>
+        <h2 class="section-title reveal">The build log</h2>
+        <p class="section-intro reveal">A record of devices designed and built, from wearables to environmental sensors. Each one began as a question and ended as working hardware.</p>
+
+        <div class="filters reveal" data-bind="filters" role="group" aria-label="Filter projects by category">
+          <!-- filter buttons injected here -->
+        </div>
+
+        <div class="project-grid reveal" data-bind="projects">
+          <!-- project cards injected from projects.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TEACHING ============ -->
+    <section class="section" id="teaching">
+      <div class="wrap">
+        <p class="ref reveal">Ref. 04 — Teaching</p>
+        <h2 class="section-title reveal">In the lecture hall</h2>
+        <p class="section-intro reveal">Courses I teach in the Department of Physics, where I work to make abstract principles concrete and buildable.</p>
+        <div class="interest-grid reveal" data-bind="teaching" style="margin-top:2.5rem">
+          <!-- filled from profile.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="wrap">
+        <p class="ref reveal">Ref. 05 — Contact</p>
+        <div class="contact-grid">
+          <div class="reveal">
+            <p class="contact-lead">Let's build<br/><span class="accent">something.</span></p>
+            <div class="contact-detail">
+              <span class="k">Email</span>
+              <a data-bind="email" href="#">your.email@elizadeuniversity.edu.ng</a>
+            </div>
+            <div class="contact-detail">
+              <span class="k">Based in</span>
+              <span data-bind="location">Ilara-Mokin, Ondo State, Nigeria</span>
+            </div>
+            <div class="contact-detail">
+              <span class="k">Dept.</span>
+              <span data-bind="institution">Elizade University</span>
+            </div>
+          </div>
+          <div class="reveal">
+            <div class="link-grid" data-bind="links">
+              <!-- link chips from profile.json -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span data-bind="year">2025</span> · <span data-bind="footer-name">Dr. Dada Joseph Babatunde</span></p>
+      <a class="top-link" href="#top">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

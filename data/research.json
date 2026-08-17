@@ -1,0 +1,29 @@
+{
+  "interests": [
+    {
+      "title": "Applied Electronics & Instrumentation",
+      "description": "Designing embedded systems and measurement instruments that bring physics concepts into tangible, testable hardware."
+    },
+    {
+      "title": "Environmental Sensing",
+      "description": "Building low-cost sensor networks for air quality and environmental monitoring in resource-constrained settings."
+    },
+    {
+      "title": "Physics Education Technology",
+      "description": "Developing affordable laboratory tools that widen access to hands-on experimentation for students."
+    },
+    {
+      "title": "Embedded & IoT Systems",
+      "description": "Connecting microcontrollers, sensors, and the cloud to create autonomous, data-driven devices."
+    }
+  ],
+  "publications": [
+    {
+      "authors": "Dada, J. B., et al.",
+      "year": "2024",
+      "title": "Add your publication title here",
+      "venue": "Journal or Conference Name, Volume(Issue), pages.",
+      "link": ""
+    }
+  ]
+}

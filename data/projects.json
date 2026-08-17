@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "title": "Wearable Smartwatch",
+      "year": "2024",
+      "category": "Wearables",
+      "status": "Prototype",
+      "summary": "A wrist-worn health and notification device built around a low-power microcontroller, featuring heart-rate sensing, step counting, and a custom energy-efficient display driver.",
+      "tags": ["ESP32", "PPG Sensor", "OLED", "Firmware", "PCB Design"],
+      "highlights": [
+        "Custom PCB with integrated power management for multi-day battery life",
+        "Real-time heart-rate estimation from photoplethysmography signals",
+        "Bluetooth Low Energy sync with a companion mobile interface"
+      ],
+      "link": "",
+      "image": ""
+    },
+    {
+      "title": "Environmental Monitoring Station",
+      "year": "2023",
+      "category": "Sensing",
+      "status": "Deployed",
+      "summary": "A solar-powered station that logs air quality, temperature, humidity, and particulate matter, transmitting readings to a cloud dashboard for long-term environmental study.",
+      "tags": ["Arduino", "Air Quality", "Solar", "IoT", "Telemetry"],
+      "highlights": [
+        "Autonomous solar operation with battery backup for continuous logging",
+        "Calibrated particulate-matter and gas sensors for research-grade data",
+        "Remote data transmission with a live web dashboard"
+      ],
+      "link": "",
+      "image": ""
+    },
+    {
+      "title": "Low-Cost Data Logger",
+      "year": "2023",
+      "category": "Instrumentation",
+      "status": "Complete",
+      "summary": "A compact, reconfigurable data acquisition unit designed for undergraduate physics laboratories, making precise measurement accessible on a modest departmental budget.",
+      "tags": ["Data Acquisition", "Teaching", "Sensors", "SD Logging"],
+      "highlights": [
+        "Modular sensor inputs for temperature, light, voltage, and current",
+        "On-board SD storage with timestamped CSV export",
+        "Built and documented for classroom reproduction by students"
+      ],
+      "link": "",
+      "image": ""
+    }
+  ]
+}

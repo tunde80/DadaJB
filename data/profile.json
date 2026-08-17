@@ -1,0 +1,41 @@
+{
+  "name": "Dr. Dada Joseph Babatunde",
+  "role": "Lecturer in Physics · Electronics Maker",
+  "institution": "Elizade University, Ilara-Mokin, Ondo State, Nigeria",
+  "tagline": "I teach the physics of how the world works, then build the electronics that put it to work.",
+  "about": [
+    "I am a lecturer in the Department of Physics at Elizade University, Ilara-Mokin, where I help students see physics not as abstract equations but as the working principles behind real devices.",
+    "Away from the lecture hall, electronics is my craft. I design and build embedded systems and instruments, from wearable devices to environmental monitors, driven by a simple belief: understanding a principle deeply means being able to build something with it.",
+    "This dual life, physicist by profession and maker by passion, shapes everything here. Each project is an experiment, each device a lesson made tangible."
+  ],
+  "stats": [
+    { "value": "Physics", "label": "Discipline" },
+    { "value": "Electronics", "label": "Craft" },
+    { "value": "Elizade Univ.", "label": "Institution" }
+  ],
+  "teaching": [
+    {
+      "course": "General Physics",
+      "detail": "Foundational mechanics, waves, and thermodynamics for undergraduate students."
+    },
+    {
+      "course": "Electronics & Circuit Theory",
+      "detail": "Analog and digital electronics, from first principles to working circuits."
+    },
+    {
+      "course": "Instrumentation & Measurement",
+      "detail": "Sensors, signal conditioning, and data acquisition for the physical sciences."
+    }
+  ],
+  "contact": {
+    "email": "your.email@elizadeuniversity.edu.ng",
+    "location": "Ilara-Mokin, Ondo State, Nigeria",
+    "links": [
+      { "label": "Google Scholar", "url": "" },
+      { "label": "ResearchGate", "url": "" },
+      { "label": "LinkedIn", "url": "" },
+      { "label": "GitHub", "url": "" },
+      { "label": "ORCID", "url": "" }
+    ]
+  }
+}
