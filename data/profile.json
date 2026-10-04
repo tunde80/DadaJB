@@ -35,7 +35,7 @@
       { "label": "ResearchGate", "url": "" },
       { "label": "LinkedIn", "url": "" },
       { "label": "GitHub", "url": "" },
-      { "label": "ORCID", https://orcid.org/0000-0003-4112-8871: ""}
+      { "label": "ORCID", "url": "https://orcid.org/0000-0003-4112-8871"}
     ]
   }
 }
