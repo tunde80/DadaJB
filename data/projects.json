@@ -22,14 +22,14 @@
       "status": "Deployed",
       "summary": "A solar-powered station that logs air quality, temperature, humidity, and particulate matter, transmitting readings to a cloud dashboard for long-term environmental study.",
       "tags": ["Arduino", "Air Quality", "Solar", "IoT", "Telemetry"],
+      "image": "images/AQ_Complete1.jpg",
       "highlights": [
         "Autonomous solar operation with battery backup for continuous logging",
         "Calibrated particulate-matter and gas sensors for research-grade data",
         "Remote data transmission with a live web dashboard"
       ],
       "link": "",
-      "image": "images/AQ_Complete1.jpg"
-    },
+      },
     {
       "title": "Low-Cost Data Logger",
       "year": "2023",
