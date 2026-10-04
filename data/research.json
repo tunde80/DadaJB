@@ -20,9 +20,37 @@
   "publications": [
     {
       "authors": "Dada, J. B., et al.",
-      "year": "2024",
-      "title": "Add your publication title here",
-      "venue": "Journal or Conference Name, Volume(Issue), pages.",
+      "year": "2019",
+      "title": "Correlation between NAO and Radio Refractive Index over Africa",
+      "venue": "Proceedings of the 1st Springer Conference of the Arabian Journal of Geosciences (CAJG-1), pp 119 – 121",
+      "link": ""
+    }
+    {
+      "authors": "Dada, J. B., et al.",
+      "year": "2020",
+      "title": "Probability Distribution Modelling of Microwave Radio Refractivity over Selected Locations in Nigeria",
+      "venue": "PKFokam Journal of Applied Science and Technology, Vol 2, No. 1",
+      "link": ""
+    }
+    {
+      "authors": "Dada, J. B. and Adebusola S.O",
+      "year": "2020",
+      "title": "Validation of Satellite and In-Situ Measurement of Variability of Surface Refractivity with Air Temperature over Nigeria",
+      "venue": "International Journal of Scientific Engineering and Applied Science (IJSEAS).  Vol 6, No. 12, pp. 35 – 45",
+      "link": ""
+    }
+     {
+      "authors": "Dada, J. B., et al.",
+      "year": "2021",
+      "title": "The influence of primary radio climatology parameters on radio refractive index over the African region: a 30-year satellite study",
+      "venue": "Journal of Physics: Conference Series, URSI_NG 2021, pp. 2034",
+      "link": ""
+    }
+    {
+      "authors": "Dada, J. B. and Lawal, Y. B",
+      "year": "2023",
+      "title": "Design and construction of a dark-activated emergency Mains failure torch",
+      "venue": "GVU Science-Tech Journal, Vol. 8, No. 1, pp. 153-162",
       "link": ""
     }
   ]
